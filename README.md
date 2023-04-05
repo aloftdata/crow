@@ -27,7 +27,7 @@ This fork is created for [aloftdata.eu](https://enram.github.io/crow/).
 
 ### Making changes
 
-- Only commit changes in this fork (aloft/crow) that are specific to the Aloft deployment.
+- Only commit changes in this fork (aloft/crow) that are specific to the Aloft deployment. [Here are all the changes specific to this fork](https://github.com/inbo/crow/compare/main...enram:crow:main). Don't merge those changes into the main repo.
 - Changes that are beneficial to the main app (bug fixes, dependency updates, improvements) should be made in the main repo ([inbo/crow](https://github.com/inbo/crow)).
 - Use `Sync fork` to pull changes from the main repo.
 
