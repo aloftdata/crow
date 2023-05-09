@@ -35,7 +35,7 @@ export default {
         { odimCode: "hrdeb", text: "Debeljak", latitude: 44.0455, longitude: 15.3765, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "hrgol", text: "Goli", latitude: 45.0205, longitude: 14.1223, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "hrgra", text: "Gradište", latitude: 45.1592, longitude: 18.7033, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
- { odimCode: "hrosi", text: "Bilogora", latitude: 45.8835, longitude: 17.2005, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "hrosi", text: "Osijek", latitude: 45.5026, longitude: 18.5613, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "hrulj", text: "Uljenje", latitude: 42.8944, longitude: 17.4783, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "hrzag", text: "Puntijarka", latitude: 45.9078, longitude: 15.9683, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
       ]
