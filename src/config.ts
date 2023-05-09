@@ -154,6 +154,7 @@ export default {
     {
       label: "Norway",
       options: [
+        { odimCode: "nohfj", text: "Hafjell", latitude: 61.2318, longitude: 10.5273, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "noand", text: "Andoya", latitude: 69.2414, longitude: 16.0028, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "nober", text: "Berlevaag", latitude: 70.5107, longitude: 29.0184, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "nobml", text: "Boemlo", latitude: 59.854, longitude: 5.09, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
