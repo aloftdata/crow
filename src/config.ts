@@ -227,6 +227,8 @@ export default {
     {
       label: "Sweden",
       options: [
+        { odimCode: "searl", text: "Stockholm-Arlanda", latitude: 59.6544, longitude: 17.9463, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "sease", text: "Hemse", latitude: 57.3035, longitude: 18.4001, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "seang", text: "Ängelholm", latitude: 56.3675, longitude: 12.8517, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "seatv", text: "Åtvidaberg (Vilebo)", latitude: 58.1059, longitude: 15.9363, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sebaa", text: "Bålsta", latitude: 59.611, longitude: 17.5833, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
