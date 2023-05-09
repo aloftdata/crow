@@ -116,6 +116,7 @@ export default {
     {
       label: "Germany",
       options: [
+        { odimCode: "deflg", text: "Flechtdorf", latitude: 51.3112, longitude: 8.802, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deboo", text: "Boostedt", latitude: 54.0043, longitude: 10.0468, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "dedrs", text: "Dresden", latitude: 51.1246, longitude: 13.7686, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deeis", text: "Eisberg", latitude: 49.5414, longitude: 12.4044, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
