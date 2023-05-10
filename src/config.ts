@@ -68,7 +68,7 @@ export default {
       label: "Finland",
       options: [
         { odimCode: "fianj", text: "Anjalankoski", latitude: 60.9039, longitude: 27.1081, timezone: "Europe/Helsinki", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "fiika", text: "Ikaalinen", latitude: 61.7673, longitude: 23.0764, timezone: "Europe/Helsinki", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },        
+        { odimCode: "fiika", text: "Ikaalinen", latitude: 61.7673, longitude: 23.0764, timezone: "Europe/Helsinki", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "fikan", text: "Kankaanpää", latitude: 61.8108, longitude: 22.502, timezone: "Europe/Helsinki", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "fikes", text: "Kesälahti", latitude: 61.9069, longitude: 29.7977, timezone: "Europe/Helsinki", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "fikor", text: "Korpo", latitude: 60.1285, longitude: 21.6434, timezone: "Europe/Helsinki", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
