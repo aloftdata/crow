@@ -33,7 +33,7 @@ This fork is created for [aloftdata.eu](https://enram.github.io/crow/).
 
 ### Where are the data?
 
-This is defined in the `aloftBaltradUrl` variable in [src/config.ts](src/config.ts). The application pulls data from `s3://aloft` (browse the data [here](https://aloftdata.eu/browse/)). It expects the data to formatted as daily [VPTS CSV](https://aloftdata.eu/vpts-csv/) file (`vptsFileFormat: "CSV"`).
+This is defined in the `aloftBaltradUrl` variable in [src/config.ts](src/config.ts). The application pulls data from `s3://aloftdata` (browse the data [here](https://aloftdata.eu/browse/)). It expects the data to formatted as daily [VPTS CSV](https://aloftdata.eu/vpts-csv/) file (`vptsFileFormat: "CSV"`).
 
 ### How to update radars?
 
