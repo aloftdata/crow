@@ -20,7 +20,7 @@ export default {
     { label: "Français", code: "fr"}
   ] as Language[],
   initialLanguageCode: "en" as LangCode,
-  radarLabelIncludesCode: false,
+  radarLabelIncludesCode: true,
   availableRadars: [
     {
       label: "Belgium",
@@ -274,7 +274,7 @@ export default {
   ] as TimeInterval[],
 
   initialTimeInterval: 24,
-  initialDate: moment().subtract(1, "days").format(moment.HTML5_FMT.DATE),
+  initialDate: moment().subtract(2, "days").format(moment.HTML5_FMT.DATE),
 
   initialTimeDisplay: "radarLocal" as TimeDisplayedAsValue,
 
