@@ -20,6 +20,7 @@ export default {
     { label: "Français", code: "fr"}
   ] as Language[],
   initialLanguageCode: "en" as LangCode,
+  radarLabelIncludesCode: false,
   availableRadars: [
     {
       label: "Belgium",

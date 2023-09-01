@@ -4,6 +4,7 @@
       id="input-radar"
       :value="selectedRadarCode"
       value-field="odimCode"
+      text-field="displayLabel"
       size="sm"
       :options="availableRadars"
       @change="setSelectedRadarCode"
