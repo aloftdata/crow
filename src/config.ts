@@ -236,7 +236,7 @@ export default {
         { odimCode: "sebaa", text: "Bålsta", latitude: 59.611, longitude: 17.5833, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sehem", text: "Hemse (Ase)", latitude: 57.3035, longitude: 18.4001, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sehud", text: "Hudriksvall", latitude: 61.5771, longitude: 16.7144, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "sehuv", text: "Hudiksvall", latitude: 61.5771, longitude: 16.7144, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "sehuv", text: "Hudriksvall", latitude: 61.5771, longitude: 16.7144, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sekaa", text: "Karlskrona", latitude: 56.2955, longitude: 15.6102, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sekir", text: "Kiruna", latitude: 67.7088, longitude: 20.6178, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sekkr", text: "Karlskrona", latitude: 56.2955, longitude: 15.6103, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
