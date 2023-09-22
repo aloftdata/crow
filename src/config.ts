@@ -90,7 +90,6 @@ export default {
         { odimCode: "fraja", text: "Ajaccio", latitude: 41.9531, longitude: 8.7005, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frale", text: "Aléria", latitude: 42.1298, longitude: 9.4964, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frave", text: "Avesnes", latitude: 50.1283, longitude: 3.8118, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "frtro", text: "Arcis-sur-Aube", latitude: 48.4621, longitude: 4.3093, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frbla", text: "Blaisy-Haut", latitude: 47.3552, longitude: 4.7759, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frbol", text: "Bollène", latitude: 44.323, longitude: 4.7621, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frbor", text: "Bordeaux", latitude: 44.8315, longitude: -0.6919, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
@@ -111,14 +110,14 @@ export default {
         { odimCode: "frpla", text: "Plabennec", latitude: 48.4609, longitude: -4.4298, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frtou", text: "Toulouse", latitude: 43.5743, longitude: 1.3763, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frtra", text: "Trappes", latitude: 48.7746, longitude: 2.0083, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "frtre", text: "Treillères", latitude: 47.3374, longitude: -1.6563, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+        { odimCode: "frtre", text: "Treillères", latitude: 47.3374, longitude: -1.6563, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "frtro", text: "Arcis-sur-Aube", latitude: 48.4621, longitude: 4.3093, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
       ]
     },
     {
       label: "Germany",
       options: [
-        { odimCode: "desna", text: "Schnaupping", latitude: 48.1747, longitude: 12.1018, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "deflg", text: "Flechtdorf", latitude: 51.3112, longitude: 8.802, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "deasb", text: "Isle of Borkum", latitude: 53.564, longitude: 6.7482, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deboo", text: "Boostedt", latitude: 54.0043, longitude: 10.0468, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "dedrs", text: "Dresden", latitude: 51.1246, longitude: 13.7686, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deeis", text: "Eisberg", latitude: 49.5414, longitude: 12.4044, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
@@ -126,9 +125,9 @@ export default {
         { odimCode: "deess", text: "Essen", latitude: 51.4055, longitude: 6.9669, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "defbg", text: "Feldberg", latitude: 47.8736, longitude: 8.0039, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "defld", text: "Flechtdorf", latitude: 51.3119, longitude: 8.8033, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "deflg", text: "Flechtdorf", latitude: 51.3112, longitude: 8.802, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "dehnr", text: "Hannover", latitude: 52.46, longitude: 9.6945, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deisn", text: "Isen/München", latitude: 48.1747, longitude: 12.1017, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "deasb", text: "Isle of Borkum", latitude: 53.564, longitude: 6.7482, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "demem", text: "Memmingen", latitude: 48.0421, longitude: 10.2192, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deneu", text: "Neuhaus", latitude: 50.5001, longitude: 11.1351, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "denhb", text: "Neuheilenbach", latitude: 50.1097, longitude: 6.5483, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
@@ -136,7 +135,8 @@ export default {
         { odimCode: "depro", text: "Protzel/Berlin", latitude: 52.6486, longitude: 13.858, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deros", text: "Rostock", latitude: 54.1757, longitude: 12.058, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "detur", text: "Tuerkheim", latitude: 48.5853, longitude: 9.7828, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "deumd", text: "Ummendorf", latitude: 52.1601, longitude: 11.1761, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+        { odimCode: "desna", text: "Schnaupping", latitude: 48.1747, longitude: 12.1018, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "deumd", text: "Ummendorf", latitude: 52.1601, longitude: 11.1761, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }        
       ]
     },
     {
@@ -156,11 +156,11 @@ export default {
     {
       label: "Norway",
       options: [
-        { odimCode: "nohfj", text: "Hafjell", latitude: 61.2318, longitude: 10.5273, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "noand", text: "Andoya", latitude: 69.2414, longitude: 16.0028, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "nober", text: "Berlevaag", latitude: 70.5107, longitude: 29.0184, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "nobml", text: "Boemlo", latitude: 59.854, longitude: 5.09, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "nohas", text: "Hasvik", latitude: 70.6052, longitude: 22.443, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "nohfj", text: "Hafjell", latitude: 61.2318, longitude: 10.5273, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "nohgb", text: "Haegebostad", latitude: 58.3601, longitude: 7.1648, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "nohur", text: "Hurum", latitude: 59.6272, longitude: 10.5645, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "norsa", text: "Rissa", latitude: 63.6905, longitude: 10.2037, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
@@ -185,17 +185,17 @@ export default {
     {
       label: "Portugal",
       options: [
-        { odimCode: "ptprt", text: "Arouca/Pico do Gralheiro", latitude: 40.845, longitude: -8.2797, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "ptfar", text: "Loule/Cavalos do Caldeirão", latitude: 37.3053, longitude: -7.9517, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "ptlis", text: "Coruche/Cruz do Leão", latitude: 39.0714, longitude: -8.3989, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "ptfar", text: "Loule/Cavalos do Caldeirão", latitude: 37.3053, longitude: -7.9517, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+        { odimCode: "ptprt", text: "Arouca/Pico do Gralheiro", latitude: 40.845, longitude: -8.2797, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
       ]
     },
     {
       label: "Slovak Republic",
       options: [
+        { odimCode: "skjav", text: "Maly Javornik", latitude: 48.2561, longitude: 17.1531, timezone: "Europe/Bratislava", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "skkoj", text: "Kojsovska hola", latitude: 48.7829, longitude: 20.9873, timezone: "Europe/Bratislava", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "skkub", text: "Kubinska hola", latitude: 49.2717, longitude: 19.2494, timezone: "Europe/Bratislava", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "skjav", text: "Maly Javornik", latitude: 48.2561, longitude: 17.1531, timezone: "Europe/Bratislava", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sklaz", text: "Spani laz", latitude: 48.2404, longitude: 19.2574, timezone: "Europe/Bratislava", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
       ]
     },
@@ -209,48 +209,48 @@ export default {
     {
       label: "Spain",
       options: [
-        { odimCode: "essan", text: "Aguión (Asturias)", latitude: 43.4625, longitude: -6.3019, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "esmal", text: "Alhaurin el Grande (Malaga)", latitude: 36.6133, longitude: -4.6592, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "eslpa", text: "Artenara (Gran Canaria)", latitude: 28.0186, longitude: -15.6144, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "eslid", text: "Autilla Pino (Palencia)", latitude: 41.9956, longitude: -4.6028, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "essse", text: "Baquio (Vizcaya)", latitude: 43.4033, longitude: -2.8419, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "essev", text: "Castillo las Guardas (Sevilla)", latitude: 37.6875, longitude: -6.3344, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "escor", text: "Cerceda ( La Coruna)", latitude: 43.1689, longitude: -8.5269, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "esalm", text: "Nijar (Almeria)", latitude: 36.8325, longitude: -2.0822, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "esbad", text: "Sierra de Fuentes (Caceres)", latitude: 39.4289, longitude: -6.2853, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "esbar", text: "Corbera (Barcelona)", latitude: 41.4081, longitude: 1.8847, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "esval", text: "Cullera (Valencia)", latitude: 39.1761, longitude: -0.2521, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "escor", text: "Cerceda ( La Coruna)", latitude: 43.1689, longitude: -8.5269, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "eslid", text: "Autilla Pino (Palencia)", latitude: 41.9956, longitude: -4.6028, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "eslpa", text: "Artenara (Gran Canaria)", latitude: 28.0186, longitude: -15.6144, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "esmad", text: "Torrejon de Velasco (Madrid)", latitude: 40.1758, longitude: -3.7136, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "esmal", text: "Alhaurin el Grande (Malaga)", latitude: 36.6133, longitude: -4.6592, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "esmur", text: "Fortuna (Murcia)", latitude: 38.2644, longitude: -1.1897, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "espma", text: "Llucmajor (Baleares)", latitude: 39.3797, longitude: 2.785, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "esalm", text: "Nijar (Almeria)", latitude: 36.8325, longitude: -2.0822, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "eszar", text: "Perdiguera (Zaragoza)", latitude: 41.7339, longitude: -0.5458, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "esbad", text: "Sierra de Fuentes (Caceres)", latitude: 39.4289, longitude: -6.2853, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "esmad", text: "Torrejon de Velasco (Madrid)", latitude: 40.1758, longitude: -3.7136, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+        { odimCode: "essan", text: "Aguión (Asturias)", latitude: 43.4625, longitude: -6.3019, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "essev", text: "Castillo las Guardas (Sevilla)", latitude: 37.6875, longitude: -6.3344, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "essse", text: "Baquio (Vizcaya)", latitude: 43.4033, longitude: -2.8419, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "esval", text: "Cullera (Valencia)", latitude: 39.1761, longitude: -0.2521, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "eszar", text: "Perdiguera (Zaragoza)", latitude: 41.7339, longitude: -0.5458, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
       ]
     },
     {
       label: "Sweden",
       options: [
-        { odimCode: "sehud", text: "Hudriksvall", latitude: 61.5771, longitude: 16.7144, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "sekir", text: "Kiruna", latitude: 67.7088, longitude: 20.6178, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "sekkr", text: "Karlskrona", latitude: 56.2955, longitude: 15.6103, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "selul", text: "Luleå", latitude: 65.4309, longitude: 21.8650, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "seosu", text: "Östersund", latitude: 63.2950, longitude: 14.7591, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "seovi", text: "Örnsköldsvik", latitude: 63.6395, longitude: 18.4019, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "sevar", text: "Vara", latitude: 58.2556, longitude: 12.8260, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "sevil", text: "Vilebo", latitude: 58.1059, longitude: 15.9363, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "seang", text: "Ängelholm", latitude: 56.3675, longitude: 12.8517, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "searl", text: "Stockholm-Arlanda", latitude: 59.6544, longitude: 17.9463, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sease", text: "Hemse", latitude: 57.3035, longitude: 18.4001, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "seang", text: "Ängelholm", latitude: 56.3675, longitude: 12.8517, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "seatv", text: "Åtvidaberg (Vilebo)", latitude: 58.1059, longitude: 15.9363, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sebaa", text: "Bålsta", latitude: 59.611, longitude: 17.5833, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sehem", text: "Hemse (Ase)", latitude: 57.3035, longitude: 18.4001, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "sehud", text: "Hudriksvall", latitude: 61.5771, longitude: 16.7144, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sehuv", text: "Hudiksvall", latitude: 61.5771, longitude: 16.7144, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sekaa", text: "Karlskrona", latitude: 56.2955, longitude: 15.6102, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "sekir", text: "Kiruna", latitude: 67.7088, longitude: 20.6178, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "sekkr", text: "Karlskrona", latitude: 56.2955, longitude: 15.6103, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sekrn", text: "Kiruna", latitude: 67.7088, longitude: 20.6178, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "selek", text: "Leksand", latitude: 60.723, longitude: 14.8776, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "sella", text: "Luleå (Rosvik)", latitude: 65.4309, longitude: 21.865, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "selul", text: "Luleå", latitude: 65.4309, longitude: 21.8650, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "seoer", text: "Örnsköldsvik", latitude: 63.6395, longitude: 18.4019, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "seosd", text: "Östersund", latitude: 63.2951, longitude: 14.7591, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "sevax", text: "Vara", latitude: 58.2556, longitude: 12.826, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+        { odimCode: "seosu", text: "Östersund", latitude: 63.2950, longitude: 14.7591, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "seovi", text: "Örnsköldsvik", latitude: 63.6395, longitude: 18.4019, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "sevar", text: "Vara", latitude: 58.2556, longitude: 12.8260, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "sevax", text: "Vara", latitude: 58.2556, longitude: 12.826, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "sevil", text: "Vilebo", latitude: 58.1059, longitude: 15.9363, timezone: "Europe/Stockholm", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
       ]
     },
     {
