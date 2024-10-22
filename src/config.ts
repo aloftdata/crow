@@ -124,8 +124,8 @@ export default {
         { odimCode: "deemd", text: "Emden", latitude: 53.3387, longitude: 7.0237, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deess", text: "Essen", latitude: 51.4055, longitude: 6.9669, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "defbg", text: "Feldberg", latitude: 47.8736, longitude: 8.0039, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "defld", text: "Flechtdorf", latitude: 51.3119, longitude: 8.8033, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "deflg", text: "Flechtdorf", latitude: 51.3112, longitude: 8.802, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "defld", text: "Flechtdorf", latitude: 51.3119, longitude: 8.802, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "deflg", text: "Feldberg", latitude: 47.8736, longitude: 8.0039, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "dehnr", text: "Hannover", latitude: 52.46, longitude: 9.6945, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deisn", text: "Isen/München", latitude: 48.1747, longitude: 12.1017, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "demem", text: "Memmingen", latitude: 48.0421, longitude: 10.2192, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
@@ -135,7 +135,7 @@ export default {
         { odimCode: "depro", text: "Protzel/Berlin", latitude: 52.6486, longitude: 13.858, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deros", text: "Rostock", latitude: 54.1757, longitude: 12.058, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "detur", text: "Tuerkheim", latitude: 48.5853, longitude: 9.7828, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "desna", text: "Schnaupping", latitude: 48.1747, longitude: 12.1018, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "desna", text: "Isen/München", latitude: 48.1747, longitude: 12.1017, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deumd", text: "Ummendorf", latitude: 52.1601, longitude: 11.1761, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }        
       ]
     },
