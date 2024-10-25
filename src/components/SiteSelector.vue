@@ -9,12 +9,12 @@
       :options="availableRadars"
       @change="setSelectedRadarCode"
     />
-    <b-form-text>
-      {{ selectedRadarLocation }} {{ t("is located at") }}
+    <b-form-text style="min-height: 45px;">
       <a
-        :href="`http://www.openstreetmap.org/?mlat=${selectedRadarLatitude}&mlon=${selectedRadarLongitude}&zoom=12`"
+        :href="`https://aloftdata.eu/radars/#${selectedRadarCode}`"
         target="_blank"
-      >{{ selectedRadarLatitude }}, {{ selectedRadarLongitude }}</a>.
+      >Radar metadata</a>
+      for {{ selectedRadarLocation }} (<code>{{ selectedRadarCode }}</code>).
     </b-form-text>
 
     <site-selector-map :sites="availableRadars" :selected-radar-code="selectedRadarCode" @click-circle="setSelectedRadarCode($event)" />

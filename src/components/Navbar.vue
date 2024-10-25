@@ -1,9 +1,12 @@
 <template>
   <b-navbar type="light" variant="light">
     <b-container>
-      <b-navbar-brand>{{ t("Title") }}</b-navbar-brand>
+      <b-navbar-brand href="https://aloftdata.eu">
+        Aloft
+      </b-navbar-brand>
+      <span class="navbar-text">Visualize bird movement data from European weather radars</span>
       <b-navbar-nav class="ml-auto">
-        <language-selector />
+        <!-- <language-selector /> -->
       </b-navbar-nav>
     </b-container>
   </b-navbar>
@@ -20,7 +23,7 @@ import Vue from "vue";
 export default Vue.extend({
   name: "Navbar",
   components: {
-    LanguageSelector
+    // LanguageSelector
   },
   data: function () {
     return {
