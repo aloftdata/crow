@@ -21,6 +21,24 @@ The application can be cited as:
 - [Meteo.be - Benelux](https://www.meteo.be/birddetection/)
 - [Aloft - Europe](https://enram.github.io/crow/)
 
+## ⚠️ About this fork
+
+This fork is created for [aloftdata.eu](https://enram.github.io/crow/).
+
+### Making changes
+
+- Only commit changes in this fork (aloft/crow) that are specific to the Aloft deployment. [Here are all the changes specific to this fork](https://github.com/inbo/crow/compare/main...enram:crow:main). Don't merge those changes into the main repo.
+- Changes that are beneficial to the main app (bug fixes, dependency updates, improvements) should be made in the main repo ([inbo/crow](https://github.com/inbo/crow)).
+- Use `Sync fork` to pull changes from the main repo.
+
+### Where are the data?
+
+This is defined in the `aloftBaltradUrl` variable in [src/config.ts](src/config.ts). The application pulls data from `s3://aloftdata` (browse the data [here](https://aloftdata.eu/browse/)). It expects the data to formatted as daily [VPTS CSV](https://aloftdata.eu/vpts-csv/) file (`vptsFileFormat: "CSV"`).
+
+### How to update radars?
+
+Radar metadata are hardcoded in [src/config.ts](src/config.ts).
+
 ## Installation and deployment
 
 Install with:
@@ -47,7 +65,7 @@ Build with:
 npm run build
 ```
 
-There is no need to build manually, as this is done automatically by GitHub Actions for every commit pushed to the `main` branch. It will serve the site at <https://inbo.github.io/crow/>.
+There is no need to build manually, as this is done automatically by GitHub Actions for every commit pushed to the `main` branch. It will serve the site at <https://enram.github.io/crow/>.
 
 If the app is to be deployed under a URL prefix (for example `https://inbo.github.io/crow`), create a `env.local` file in the source tree root with content: `URL_PREFIX = "/crow/"`.
 
