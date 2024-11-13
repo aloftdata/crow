@@ -37,6 +37,7 @@ export default {
         { odimCode: "hrgol", text: "Goli", latitude: 45.0205, longitude: 14.1223, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "hrgra", text: "Gradište", latitude: 45.1592, longitude: 18.7033, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "hrosi", text: "Osijek", latitude: 45.5026, longitude: 18.5613, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "hrpun", text: "Sljeme", latitude: 45.907814, longitude: 15.968383, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "hrulj", text: "Uljenje", latitude: 42.8944, longitude: 17.4783, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "hrzag", text: "Puntijarka", latitude: 45.9078, longitude: 15.9683, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
       ]
@@ -106,8 +107,10 @@ export default {
         { odimCode: "frnan", text: "Nancy", latitude: 48.7158, longitude: 6.5816, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frnim", text: "Nîmes", latitude: 43.8061, longitude: 4.5027, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frniz", text: "Saint Nizier", latitude: 46.0678, longitude: 4.4453, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "frnoy", text: "Noyal-Pontivy", latitude: 48.04682, longitude: -2.89417, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "fropo", text: "Opoul", latitude: 42.9184, longitude: 2.865, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frpla", text: "Plabennec", latitude: 48.4609, longitude: -4.4298, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "frrem", text: "Saint-Rémy-de-Blot", latitude: 46.06655, longitude: 2.96058, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frtou", text: "Toulouse", latitude: 43.5743, longitude: 1.3763, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frtra", text: "Trappes", latitude: 48.7746, longitude: 2.0083, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "frtre", text: "Treillères", latitude: 47.3374, longitude: -1.6563, timezone: "Europe/Paris", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
@@ -164,6 +167,7 @@ export default {
         { odimCode: "nohgb", text: "Haegebostad", latitude: 58.3601, longitude: 7.1648, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "nohur", text: "Hurum", latitude: 59.6272, longitude: 10.5645, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "norsa", text: "Rissa", latitude: 63.6905, longitude: 10.2037, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "norsg", text: "Rassegalvarri", latitude: 69.218605, longitude: 23.439759, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "norst", text: "Rost", latitude: 67.5307, longitude: 12.0986, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "nosmn", text: "Soemna", latitude: 65.2201, longitude: 11.9926, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "nosta", text: "Stad", latitude: 62.1871, longitude: 5.1275, timezone: "Europe/Oslo", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
@@ -187,7 +191,8 @@ export default {
       options: [
         { odimCode: "ptfar", text: "Loule/Cavalos do Caldeirão", latitude: 37.3053, longitude: -7.9517, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "ptlis", text: "Coruche/Cruz do Leão", latitude: 39.0714, longitude: -8.3989, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "ptprt", text: "Arouca/Pico do Gralheiro", latitude: 40.845, longitude: -8.2797, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+        { odimCode: "ptprt", text: "Arouca/Pico do Gralheiro", latitude: 40.845, longitude: -8.2797, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "pttrc", text: "Terceira/ Santa Barbara", latitude: 38.73014, longitude: -27.32075, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
       ]
     },
     {
