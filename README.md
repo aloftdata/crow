@@ -23,11 +23,11 @@ The application can be cited as:
 
 ## ⚠️ About this fork
 
-This fork is created for [aloftdata.eu](https://enram.github.io/crow/).
+This fork is created for [aloftdata.eu](https://crow.aloftdata.eu/).
 
 ### Making changes
 
-- Only commit changes in this fork (aloft/crow) that are specific to the Aloft deployment. [Here are all the changes specific to this fork](https://github.com/inbo/crow/compare/main...enram:crow:main). Don't merge those changes into the main repo.
+- Only commit changes in this fork (aloft/crow) that are specific to the Aloft deployment. [Here are all the changes specific to this fork](https://github.com/inbo/crow/compare/main...aloftdata:crow:main). Don't merge those changes into the main repo.
 - Changes that are beneficial to the main app (bug fixes, dependency updates, improvements) should be made in the main repo ([inbo/crow](https://github.com/inbo/crow)).
 - Use `Sync fork` to pull changes from the main repo.
 
@@ -65,7 +65,7 @@ Build with:
 npm run build
 ```
 
-There is no need to build manually, as this is done automatically by GitHub Actions for every commit pushed to the `main` branch. It will serve the site at <https://enram.github.io/crow/>.
+There is no need to build manually, as this is done automatically by GitHub Actions for every commit pushed to the `main` branch. It will serve the site at <https://aloftdata.github.io/crow/>.
 
 If the app is to be deployed under a URL prefix (for example `https://inbo.github.io/crow`), create a `env.local` file in the source tree root with content: `URL_PREFIX = "/crow/"`.
 
