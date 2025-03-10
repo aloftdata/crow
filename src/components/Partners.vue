@@ -2,10 +2,10 @@
   <b-container class="mt-5">
     <b-row>
       <b-col lg>
-        <p>Weather radars do not only detect precipitation, but also birds in the sky. By extracting these bird detections, researchers can study their movements. This is especially useful for studying songbird migration, which takes place at night. In the visualizations above you can explore these data for a selection of European radars (i.e. the <a href="https://aloftdata.eu/baltrad/">BALTRAD dataset</a>).</p>
+        <p>Weather radars do not only detect precipitation, but also birds in the sky. By extracting these bird detections, researchers can study their movements. This is especially useful for studying songbird migration, which takes place at night. In the visualizations above you can explore these data for a selection of European radars.</p>
       </b-col>
       <b-col lg>
-        <p>Data go back to 2012, but contain numerous gaps for certain periods and radars. Note that the bird numbers are estimates and that the quality of the data varies between radars and time periods. The data is dependent on individual radar settings and is particularly unreliable close to the ground, where bird signals are often mixed with ground echoes. See also our <a href="https://aloftdata.eu/about/">FAQ</a>.</p>
+        <p>Data go back to 2012, but contain numerous gaps for certain periods and radars. Note that the bird numbers are estimates and that the quality of the data varies between radars and time periods. The data is dependent on individual radar settings and is particularly unreliable close to the ground, where bird signals are often mixed with ground echoes. See also our <a href="https://aloftdata.eu/faq/">FAQ</a>.</p>
       </b-col>
     </b-row>
     <b-row>
