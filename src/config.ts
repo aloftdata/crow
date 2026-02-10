@@ -37,9 +37,9 @@ export default {
         { odimCode: "hrgol", text: "Goli", latitude: 45.0205, longitude: 14.1223, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "hrgra", text: "Gradište", latitude: 45.1592, longitude: 18.7033, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "hrosi", text: "Osijek", latitude: 45.5026, longitude: 18.5613, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "hrpun", text: "Sljeme", latitude: 45.907814, longitude: 15.968383, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "hrpun", text: "Puntijarka", latitude: 45.9078, longitude: 15.9683, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "hrulj", text: "Uljenje", latitude: 42.8944, longitude: 17.4783, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "hrzag", text: "Puntijarka", latitude: 45.9078, longitude: 15.9683, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+        { odimCode: "hrzag", text: "Puntijarka (now hrpun)", latitude: 45.9078, longitude: 15.9683, timezone: "Europe/Zagreb", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
       ]
     },
     {
@@ -134,10 +134,10 @@ export default {
         { odimCode: "deneu", text: "Neuhaus", latitude: 50.5001, longitude: 11.1351, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "denhb", text: "Neuheilenbach", latitude: 50.1097, longitude: 6.5483, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deoft", text: "Offenthal", latitude: 49.9847, longitude: 8.7129, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "detur", text: "Tuerkheim", latitude: 48.5853, longitude: 9.7828, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "depro", text: "Protzel/Berlin", latitude: 52.6486, longitude: 13.8580, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deros", text: "Rostock", latitude: 54.1757, longitude: 12.0580, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "desna", text: "Isen/München (now deisn)", latitude: 48.1747, longitude: 12.1017, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV", showOnMap: false },
+        { odimCode: "detur", text: "Tuerkheim", latitude: 48.5853, longitude: 9.7828, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "deumd", text: "Ummendorf", latitude: 52.1601, longitude: 11.1761, timezone: "Europe/Berlin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }        
       ]
     },
@@ -215,19 +215,23 @@ export default {
     {
       label: "Spain",
       options: [
+        { odimCode: "esahr", text: "Alhaurin el Grande (Malaga)", latitude: 36.6133, longitude: -4.6593, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "esalm", text: "Nijar (Almeria)", latitude: 36.8324, longitude: -2.0822, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "esbad", text: "Sierra de Fuentes (Caceres)", latitude: 39.4288, longitude: -6.2853, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "esbar", text: "Corbera (Barcelona)", latitude: 41.4081, longitude: 1.8848, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "esbad", text: "Sierra de Fuentes (Caceres) (now essft)", latitude: 39.4288, longitude: -6.2853, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "esbar", text: "Corbera (Barcelona) (now esgld)", latitude: 41.4081, longitude: 1.8848, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "escor", text: "Cerceda ( La Coruna)", latitude: 43.1689, longitude: -8.5269, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "esgld", text: "Corbera (Barcelona)", latitude: 41.4081, longitude: 1.8848, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "eslid", text: "Autilla Pino (Palencia)", latitude: 41.9956, longitude: -4.6028, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "eslpa", text: "Artenara (Gran Canaria)", latitude: 28.0186, longitude: -15.6144, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "esmad", text: "Torrejon de Velasco (Madrid)", latitude: 40.1759, longitude: -3.7136, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
-        { odimCode: "esmal", text: "Alhaurin el Grande (Malaga)", latitude: 36.6133, longitude: -4.6593, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "esmad", text: "Torrejon de Velasco (Madrid) (now estjv)", latitude: 40.1759, longitude: -3.7136, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "esmal", text: "Alhaurin el Grande (Malaga) (now esahr)", latitude: 36.6133, longitude: -4.6593, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "esmur", text: "Fortuna (Murcia)", latitude: 38.2644, longitude: -1.1897, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "espma", text: "Llucmajor (Baleares)", latitude: 39.3797, longitude: 2.7850, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "essan", text: "Aguión (Asturias)", latitude: 43.4625, longitude: -6.3019, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "essev", text: "Castillo las Guardas (Sevilla)", latitude: 37.6875, longitude: -6.3344, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "essft", text: "Sierra de Fuentes (Caceres)", latitude: 39.4288, longitude: -6.2853, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "essse", text: "Baquio (Vizcaya)", latitude: 43.4033, longitude: -2.8419, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "estjv", text: "Torrejon de Velasco (Madrid)", latitude: 40.1759, longitude: -3.7136, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "esval", text: "Cullera (Valencia)", latitude: 39.1761, longitude: -0.2521, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "eszar", text: "Perdiguera (Zaragoza)", latitude: 41.7339, longitude: -0.5458, timezone: "Europe/Madrid", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
       ]
