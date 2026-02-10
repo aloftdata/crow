@@ -43,7 +43,7 @@ export default {
       ]
     },
     {
-      label: "Czech Republic",
+      label: "Czechia",
       options: [
         { odimCode: "czbrd", text: "Brdy-Praha", latitude: 49.6583, longitude: 13.8178, timezone: "Europe/Prague", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "czska", text: "Skalky", latitude: 49.5011, longitude: 16.7885, timezone: "Europe/Prague", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
@@ -188,7 +188,7 @@ export default {
     {
       label: "Portugal",
       options: [
-        { odimCode: "ptfar", text: "Loule/Cavalos do Caldeirão", latitude: 37.3053, longitude: -7.9517, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "ptfar", text: "Loulé/Cavalos do Caldeirão", latitude: 37.3053, longitude: -7.9517, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "ptflr", text: "Flores/Morro Alto", latitude: 39.4634, longitude: -31.2200, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "ptlis", text: "Coruche/Cruz do Leão", latitude: 39.0714, longitude: -8.3989, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "ptprt", text: "Arouca/Pico do Gralheiro", latitude: 40.8450, longitude: -8.2797, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
@@ -197,7 +197,7 @@ export default {
       ]
     },
     {
-      label: "Slovak Republic",
+      label: "Slovakia",
       options: [
         { odimCode: "skjav", text: "Maly Javornik", latitude: 48.2561, longitude: 17.1531, timezone: "Europe/Bratislava", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "skkoj", text: "Kojsovska hola", latitude: 48.7829, longitude: 20.9873, timezone: "Europe/Bratislava", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
