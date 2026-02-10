@@ -142,9 +142,52 @@ export default {
       ]
     },
     {
+      label: "Greece",
+      options: [
+        { odimCode: "grand", text: "Andravida", latitude: 37.9261, longitude: 21.2894, timezone: "Europe/Athens", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+      ]
+    },
+    {
+      label: "Hungary",
+      options: [
+        { odimCode: "hubud", text: "Budapest", latitude: 47.4294, longitude: 19.1817, timezone: "Europe/Budapest", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "huhar", text: "Harmashegy", latitude: 46.1775, longitude: 18.3372, timezone: "Europe/Budapest", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "hunap", text: "Napkor", latitude: 47.9622, longitude: 21.8867, timezone: "Europe/Budapest", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "hupog", text: "Poganyvar", latitude: 46.6604, longitude: 17.0624, timezone: "Europe/Budapest", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "husze", text: "Szentes", latitude: 46.6397, longitude: 20.4325, timezone: "Europe/Budapest", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+      ]
+    },
+    {
+      label: "Iceland",
+      options: [
+        { odimCode: "isbjo", text: "Bjolfur", latitude: 65.2658, longitude: -14.0618, timezone: "Atlantic/Reykjavik", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "iskef", text: "Keflavik", latitude: 64.0257, longitude: -22.6353, timezone: "Atlantic/Reykjavik", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "isska", text: "Skagi", latitude: 66.0557, longitude: -20.268, timezone: "Atlantic/Reykjavik", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+      ]
+    },
+    {
+      label: "Ireland",
+      options: [
+        { odimCode: "iesha", text: "Shannon", latitude: 52.6928, longitude: -8.9201, timezone: "Europe/Dublin", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+      ]
+    },
+    {
       label: "Israel",
       options: [
         { odimCode: "iltlv", text: "Bet Dagan", latitude: 32.0070, longitude: 34.8146, timezone: "Asia/Jerusalem", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+      ]
+    },
+    {
+      label: "Lithuania",
+      options: [
+        { odimCode: "ltlau", text: "Laukuva", latitude: 55.6090, longitude: 22.2395, timezone: "Europe/Vilnius", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "ltvil", text: "Vilnius", latitude: 54.6262, longitude: 25.1067, timezone: "Europe/Vilnius", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+      ]
+    },
+    {
+      label: "Malta",
+      options: [
+        { odimCode: "mtgud", text: "Gudja", latitude: 35.8529, longitude: 14.4748, timezone: "Europe/Malta", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
       ]
     },
     {
@@ -194,6 +237,18 @@ export default {
         { odimCode: "ptprt", text: "Arouca/Pico do Gralheiro", latitude: 40.8450, longitude: -8.2797, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "ptsmg", text: "São Miguel/Pico Santos de Cima", latitude: 37.8191, longitude: -25.7516, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
         { odimCode: "pttrc", text: "Terceira/ Santa Barbara", latitude: 38.7301, longitude: -27.3208, timezone: "Europe/Lisbon", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
+      ]
+    },
+    {
+      label: "Romania",
+      options: [
+        { odimCode: "robar", text: "Barnova", latitude: 47.01184, longitude: 27.5826, timezone: "Europe/Bucharest", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "robob", text: "Bobohalma", latitude: 46.3602, longitude: 24.2252, timezone: "Europe/Bucharest", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "robuc", text: "Bucuresti", latitude: 44.5127, longitude: 26.0773, timezone: "Europe/Bucharest", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "rocra", text: "Craiova", latitude: 44.3103, longitude: 23.8674, timezone: "Europe/Bucharest", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "romed", text: "Medgidia", latitude: 44.2434, longitude: 28.2506, timezone: "Europe/Bucharest", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "roora", text: "Oradea", latitude: 47.0922, longitude: 21.9429, timezone: "Europe/Bucharest", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" },
+        { odimCode: "rotim", text: "Timisoara", latitude: 45.7717, longitude: 21.2577, timezone: "Europe/Bucharest", endpoint: aloftBaltradUrl, heights: availableHeights, vptsFileFormat: "CSV" }
       ]
     },
     {
